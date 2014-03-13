@@ -1,0 +1,1 @@
+#Install-VirtualPackage 'fusioninventory-agent.portable' 'fusioninventory-agent.install'
