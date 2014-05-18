@@ -1,4 +1,4 @@
 chocolatey-fusioninventory-agent
 ================================
 
-Chocolatey package for FusionInventory Agent (http://www.fusioninventory.org)
+[Chocolatey](http://chocolatey.org) package for [FusionInventory](http://www.fusioninventory.org) Agent.
