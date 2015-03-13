@@ -25,12 +25,12 @@ Usage examples
 
     * Set the URL of the GLPI server to use, don't inventory printer, don't create links in the Start Menu and perform the inventory task immediately after installation:
         ```Batchfile
-        choco install fusioninventory-agent -installArgs '/server="http://glpi.example.com/plugins/fusioninventory/" /no-category=Printer /no-start-menu /runnow'
+        choco install fusioninventory-agent --installargs "/server='http://glpi.example.com/plugins/fusioninventory/' /no-category=Printer /no-start-menu /runnow"
         ```
 
     * PowerShell version that uses machine's domain (Windows AD) to set the HTTP proxy the agent should use:
         ```PowerShell
-        choco install fusioninventory-agent -installArgs '/proxy="http://proxy.' + $env:userdnsdomain + '"'
+        choco install fusioninventory-agent --installargs "/proxy='http://proxy.$env:userdnsdomain'"
         ```
 
     The list of available command line options can be found on the FusionInventory documentation (section *[windows-installer-2.3.x-command-line](http://www.fusioninventory.org/documentation/agent/installation/windows/windows-installer-2.3.x-command-line/)*).
