@@ -3,7 +3,7 @@
   <metadata>
     <id>fusioninventory-agent.install</id>
     <title>FusionInventory Agent (Install)</title>
-    <version>2.3.9</version>
+    <version>2.3.15</version>
     <authors>FusionInventory Project</authors>
     <owners>DUVERGIER Claude</owners>
     <summary>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</summary>

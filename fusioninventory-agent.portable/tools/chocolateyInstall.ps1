@@ -1,6 +1,6 @@
 $packageName = 'fusioninventory-agent.portable'
-$url = 'http://forge.fusioninventory.org/attachments/download/1470/fusioninventory-agent_windows-x86_2.3.9-portable.exe' # NB: Theses EXE are 7z SFX
-$url64 = 'http://forge.fusioninventory.org/attachments/download/1466/fusioninventory-agent_windows-x64_2.3.9-portable.exe'
+$url = 'http://forge.fusioninventory.org/attachments/download/1738/fusioninventory-agent_windows-x86_2.3.15-portable.exe' # NB: Theses EXE are 7z SFX
+$url64 = 'http://forge.fusioninventory.org/attachments/download/1736/fusioninventory-agent_windows-x64_2.3.15-portable.exe'
 
 try { 
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
