@@ -3,7 +3,7 @@
   <metadata>
     <id>fusioninventory-agent</id>
     <title>FusionInventory Agent</title>
-    <version>2.3.16</version>
+    <version>2.3.17</version>
     <authors>FusionInventory Project</authors>
     <owners>DUVERGIER Claude</owners>
     <summary>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</summary>
@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/C-Duv/chocolatey-fusioninventory-agent/master/fusioninventory-agent/fusioninventory-agent-logo.png</iconUrl>
     <dependencies>
-      <dependency id="fusioninventory-agent.install" version="[2.3.16]" />
+      <dependency id="fusioninventory-agent.install" version="[2.3.17]" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
