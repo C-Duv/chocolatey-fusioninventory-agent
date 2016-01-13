@@ -15,6 +15,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/C-Duv/chocolatey-fusioninventory-agent/master/fusioninventory-agent.install/fusioninventory-agent-logo.png</iconUrl>
     <releaseNotes></releaseNotes>
+    <projectSourceUrl>https://github.com/fusioninventory/fusioninventory-agent</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/fusioninventory/fusioninventory-agent/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/C-Duv/chocolatey-fusioninventory-agent</packageSourceUrl>
+    <docsUrl>http://fusioninventory.org/documentation/</docsUrl>
+    <mailingListUrl>http://fusioninventory.org/resources/</mailingListUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

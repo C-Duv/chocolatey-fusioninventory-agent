@@ -18,6 +18,11 @@
       <dependency id="fusioninventory-agent.install" version="[2.3.17]" />
     </dependencies>
     <releaseNotes></releaseNotes>
+    <projectSourceUrl>https://github.com/fusioninventory/fusioninventory-agent</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/fusioninventory/fusioninventory-agent/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/C-Duv/chocolatey-fusioninventory-agent</packageSourceUrl>
+    <docsUrl>http://fusioninventory.org/documentation/</docsUrl>
+    <mailingListUrl>http://fusioninventory.org/resources/</mailingListUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
