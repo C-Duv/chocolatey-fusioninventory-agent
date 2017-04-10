@@ -14,7 +14,7 @@
     <licenseUrl>https://github.com/fusinv/fusioninventory-agent/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/C-Duv/chocolatey-fusioninventory-agent/master/fusioninventory-agent.install/fusioninventory-agent-logo.png</iconUrl>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://fusioninventory.org/2017/02/17/fusioninventory-agent-2.3.19.html</releaseNotes>
     <projectSourceUrl>https://github.com/fusioninventory/fusioninventory-agent</projectSourceUrl>
     <bugTrackerUrl>https://github.com/fusioninventory/fusioninventory-agent/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/C-Duv/chocolatey-fusioninventory-agent</packageSourceUrl>

@@ -17,7 +17,7 @@
     <dependencies>
       <dependency id="fusioninventory-agent.install" version="[2.3.19]" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://fusioninventory.org/2017/02/17/fusioninventory-agent-2.3.19.html</releaseNotes>
     <projectSourceUrl>https://github.com/fusioninventory/fusioninventory-agent</projectSourceUrl>
     <bugTrackerUrl>https://github.com/fusioninventory/fusioninventory-agent/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/C-Duv/chocolatey-fusioninventory-agent</packageSourceUrl>
