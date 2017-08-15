@@ -2,11 +2,11 @@ $packageName = 'fusioninventory-agent.portable'
 
 $packageDownloadArgs = @{
     packageName = $packageName
-    url         = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20-portable.exe' # NB: Theses EXE are 7z SFX
-    url64bit    = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x64_2.3.20-portable.exe'
-    checksum       = '4ecb8770a03a28302cdcf865189aa65de291547921dd7ed633df6c2babc1a6da'
+    url         = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.21/fusioninventory-agent_windows-x86_2.3.21-portable.exee' # NB: Theses EXE are 7z SFX
+    url64bit    = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.21/fusioninventory-agent_windows-x64_2.3.21-portable.exe'
+    checksum       = '586a2e3c807e047cb4abecf3f18eb68522f995b3b0f373681ef7d7730810d9ca'
     checksumType   = 'sha256'
-    checksum64     = 'd92cd8301ddc4db8715016f8d92f9d605aed693347323f32b6f23a70bf75a01d'
+    checksum64     = 'ff2d1b03da7feb24fb5de4ed7e9e09d574b4b29eea17edb11d7dee9233f0b2a4'
     checksumType64 = 'sha256'
 }
 
