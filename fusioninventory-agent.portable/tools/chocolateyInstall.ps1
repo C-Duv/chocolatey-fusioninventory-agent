@@ -1,5 +1,7 @@
 $packageName = 'fusioninventory-agent.portable'
 
+$ErrorActionPreference = 'Stop'
+
 $packageDownloadArgs = @{
     packageName = $packageName
     url         = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20-portable.exe' # NB: Theses EXE are 7z SFX
@@ -10,22 +12,15 @@ $packageDownloadArgs = @{
     checksumType64 = 'sha256'
 }
 
-try { 
-  $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-  if (![System.IO.Directory]::Exists($installDir)) {[System.IO.Directory]::CreateDirectory($installDir)}
-  
-  $tempDir = "$env:TEMP\chocolatey\$($packageName)"
-  if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
+if (![System.IO.Directory]::Exists($installDir)) {[System.IO.Directory]::CreateDirectory($installDir)}
 
-  $file = Join-Path $tempDir "$($packageName).exe" # Using ".exe" here to match extension of file located at $url/$url64
-  $packageDownloadArgs.Add('FileFullPath', $file)
-  Get-ChocolateyWebFile @packageDownloadArgs
+$tempDir = "$env:TEMP\chocolatey\$($packageName)"
+if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 
-  Start-Process `"$file`" -ArgumentList "-o`"$installDir`" -y" -Wait # Downloaded file is a 7z SFX: just execute it
+$file = Join-Path $tempDir "$($packageName).exe" # Using ".exe" here to match extension of file located at $url/$url64
+$packageDownloadArgs.Add('FileFullPath', $file)
+Get-ChocolateyWebFile @packageDownloadArgs
 
-  Write-ChocolateySuccess "$packageName"
-} catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
-}
+Start-Process `"$file`" -ArgumentList "-o`"$installDir`" -y" -Wait # Downloaded file is a 7z SFX: just execute it

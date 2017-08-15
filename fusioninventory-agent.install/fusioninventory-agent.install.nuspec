@@ -9,7 +9,7 @@
     <summary>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</summary>
     <description>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</description>
     <projectUrl>http://www.fusioninventory.org</projectUrl>
-    <tags>FusionInventoryAgent</tags>
+    <tags>admin FusionInventoryAgent</tags>
     <copyright></copyright>
     <licenseUrl>https://github.com/fusinv/fusioninventory-agent/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
