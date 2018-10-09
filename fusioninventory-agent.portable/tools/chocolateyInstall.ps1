@@ -4,11 +4,11 @@ $ErrorActionPreference = 'Stop'
 
 $packageDownloadArgs = @{
     packageName = $packageName
-    url         = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x86_2.4-portable.exe' # NB: Theses EXE are 7z SFX
-    url64bit    = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x64_2.4-portable.exe'
-    checksum       = '0abdcb03bcd27872bc88af21323904e05ee3ba9e3f6c434fccadef21a4f33d3b'
+    url         = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.1/fusioninventory-agent_windows-x86_2.4.1-portable.exe' # NB: Theses EXE are 7z SFX
+    url64bit    = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.1/fusioninventory-agent_windows-x64_2.4.1-portable.exe'
+    checksum       = 'd000b6d337c7ac9e2e6e23f5969de16ba0e702e419368346b256eee79525a4e8'
     checksumType   = 'sha256'
-    checksum64     = 'd5a79cec197a6cc63f27a77f4d30e23d062b484cf68fbd850bbcb68afaeb9049'
+    checksum64     = '1fa8d4b3b2d18ec86decd15e04ae0310d0332424d18abb26aae81e106565a1fc'
     checksumType64 = 'sha256'
 }
 
