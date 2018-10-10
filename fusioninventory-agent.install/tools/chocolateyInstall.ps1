@@ -1,13 +1,13 @@
 $packageInstallArgs = @{
     packageName    = 'fusioninventory-agent.install'
     fileType       = 'exe'
-    url            = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.1/fusioninventory-agent_windows-x86_2.4.1.exe'
-    url64bit       = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.1/fusioninventory-agent_windows-x64_2.4.1.exe'
+    url            = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/fusioninventory-agent_windows-x86_2.4.2.exe'
+    url64bit       = 'https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/fusioninventory-agent_windows-x64_2.4.2.exe'
     silentArgs     = '/S /acceptlicense'
     validExitCodes = @(0)
-    checksum       = '10987785b43496ee057aa1af57ec04e97b87962a23103835e79328652ce7ce4a'
+    checksum       = '3f412487c068c952c0c9d630c1c9a4a20d054b338fb3bde64a21e3d8544bc5ca'
     checksumType   = 'sha256'
-    checksum64     = '546a2e25bce5c5615dc32723be86effd464372801681bb644f4235e575598f77'
+    checksum64     = '10796ec2206f9f8970b117938fd82616cefbddcb996535c6b1ba74d9a54eb3fe'
     checksumType64 = 'sha256'
 }
 
