@@ -3,7 +3,7 @@
   <metadata>
     <id>fusioninventory-agent.portable</id>
     <title>FusionInventory Agent (Portable)</title>
-    <version>2.5.1</version>
+    <version>2.6</version>
     <authors>FusionInventory Project</authors>
     <owners>DUVERGIER Claude</owners>
     <summary>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</summary>
@@ -14,7 +14,7 @@
     <licenseUrl>https://github.com/fusinv/fusioninventory-agent/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/C-Duv/chocolatey-fusioninventory-agent/master/fusioninventory-agent.portable/fusioninventory-agent-logo.png</iconUrl>
-    <releaseNotes>http://fusioninventory.org/2019/07/02/fusioninventory-agent-2.5.1.html</releaseNotes>
+    <releaseNotes>http://fusioninventory.org/2020/11/26/fusioninventory-agent-2.6.html</releaseNotes>
     <projectSourceUrl>https://github.com/fusioninventory/fusioninventory-agent</projectSourceUrl>
     <bugTrackerUrl>https://github.com/fusioninventory/fusioninventory-agent/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/C-Duv/chocolatey-fusioninventory-agent</packageSourceUrl>
