@@ -8,7 +8,7 @@
     <owners>DUVERGIER Claude</owners>
     <summary>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</summary>
     <description>Agent for FusionInventory: performs a large array of management tasks, such as local inventory, software deployment or network discovery. It can be used either standalone, or in combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized control point.</description>
-    <projectUrl>http://www.fusioninventory.org</projectUrl>
+    <projectUrl>https://fusioninventory.org</projectUrl>
     <tags>admin FusionInventoryAgent</tags>
     <copyright></copyright>
     <licenseUrl>https://github.com/fusinv/fusioninventory-agent/blob/master/LICENSE</licenseUrl>
@@ -18,8 +18,8 @@
     <projectSourceUrl>https://github.com/fusioninventory/fusioninventory-agent</projectSourceUrl>
     <bugTrackerUrl>https://github.com/fusioninventory/fusioninventory-agent/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/C-Duv/chocolatey-fusioninventory-agent</packageSourceUrl>
-    <mailingListUrl>http://fusioninventory.org/resources/</mailingListUrl>
     <docsUrl>https://documentation.fusioninventory.org</docsUrl>
+    <mailingListUrl>https://fusioninventory.org/resources/#mailing-lists</mailingListUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
